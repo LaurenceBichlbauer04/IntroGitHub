@@ -1,0 +1,20 @@
+[project]
+name = "IntroGitHub"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "laurencebichlbauer04", email = "lth.bichlbauer04@mci4me.at"},
+]
+dependencies = [
+    "appnope==0.1.0",
+    "backcall==0.1.0",
+    "beautifulsoup4==4.6.3",
+    "numpy>=2.4.4",
+]
+requires-python = "==3.14.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
